@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>INDIGO</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./assets/js/jquery.min.js"></script>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/index/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <style>
+      :root {
+        --swiper-theme-color: #3f51b5;
+        --swiper-navigation-size: 30px;
+      }
+      @media (min-width: 1440px) {
+        :root {
+          --swiper-navigation-size: 44px;
+        }
+      }
+      :root {
+        --swiper-navigation-size: 44px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- skip menu -->
+    <div class="skip-menu">
+      <a href="#we-are">본문 바로가기</a>
+    </div>
+    <!-- wrap section -->
+    <section class="wrap">
+      <!-- header section -->
+      <header class="header">
+        <h1 class="main-logo">
+          <a href="index.html">INDIGO</a>
+        </h1>
+        <nav>
+          <ul class="main-nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#we-are">WE ARE</a></li>
+            <li><a href="#work">WORK</a></li>
+            <li><a href="#blog">BLOG</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+          </ul>
+        </nav>
+        <div class="tgl-menu">
+          <div>라인1</div>
+          <div>라인2</div>
+          <div>라인3</div>
+        </div>
+      </header>
+      <!-- slider section -->
+      <section class="section slider">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/images/slider_01.jpg" alt="slider01" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/slider_02.jpg" alt="slider02" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/slider_03.jpg" alt="slider03" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/slider_04.jpg" alt="slider04" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/slider_05.jpg" alt="slider05" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/slider_06.jpg" alt="slider06" />
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+      <!-- we are section -->
+      <section class="section we-are" id="we-are">
+        <div class="container">
+          <h2 class="sec-tit">WE ARE</h2>
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old.
+          </p>
+        </div>
+      </section>
+      <!-- page-info section -->
+      <section class="section page-info">
+        <ul class="container">
+          <li>
+            <div class="page-info-img">
+              <img src="./assets/images/ico_home.png" alt="home" />
+            </div>
+            <h2 class="page-info-tit">HOME</h2>
+            <p class="page-info-txt">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </li>
+          <li>
+            <div class="page-info-img">
+              <img src="./assets/images/ico_we_are.png" alt="home" />
+            </div>
+            <h2 class="page-info-tit">WE ARE</h2>
+            <p class="page-info-txt">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </li>
+          <li>
+            <div class="page-info-img">
+              <img src="./assets/images/ico_work.png" alt="home" />
+            </div>
+            <h2 class="page-info-tit">WORK</h2>
+            <p class="page-info-txt">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </li>
+          <li>
+            <div class="page-info-img">
+              <img src="./assets/images/ico_blog.png" alt="home" />
+            </div>
+            <h2 class="page-info-tit">BLOG</h2>
+            <p class="page-info-txt">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- sec-line section -->
+      <section class="section sec-line sec-line01">SECTION LINE</section>
+      <!-- work section -->
+      <section class="section work" id="work">
+        <div class="container">
+          <h2 class="sec-tit">WORK</h2>
+        </div>
+        <ul class="work-list">
+          <li>
+            <img src="./assets/images/work_img01.png" alt="work01" />
+            <div class="work-list-over">
+              <h3>running</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/work_img02.png" alt="work02" />
+            <div class="work-list-over">
+              <h3>rugby</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/work_img03.png" alt="work03" />
+            <div class="work-list-over">
+              <h3>crossfit</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/work_img04.png" alt="work04" />
+            <div class="work-list-over">
+              <h3>Running</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/work_img05.png" alt="work05" />
+            <div class="work-list-over">
+              <h3>Boxing</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/work_img06.png" alt="work06" />
+            <div class="work-list-over">
+              <h3>Ice hockey</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/work_img07.png" alt="work07" />
+            <div class="work-list-over">
+              <h3>Skater board</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/work_img08.png" alt="work08" />
+            <div class="work-list-over">
+              <h3>Basket ball</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- sec-line section -->
+      <section class="section sec-line sec-line02">SECTION LINE</section>
+      <!-- blog section -->
+      <section class="section blog" id="blog">
+        <div class="container">
+          <h2 class="sec-tit">BLOG</h2>
+          <ul class="blog-list">
+            <li>
+              <img src="./assets/images/blog_img01.png" alt="blog1" />
+              <h3>JAN-11-2021</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquam, voluptate.
+              </p>
+            </li>
+            <li>
+              <img src="./assets/images/blog_img02.png" alt="blog2" />
+              <h3>JAN-11-2021</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquam, voluptate.
+              </p>
+            </li>
+            <li>
+              <img src="./assets/images/blog_img03.png" alt="blog3" />
+              <h3>JAN-11-2021</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquam, voluptate.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- contact section -->
+      <section class="section contact" id="contact">
+        <div class="container">
+          <h2 class="sec-tit">CONTACT</h2>
+          <form>
+            <ul class="form-box">
+              <li>
+                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Cell phone" />
+                <input type="text" placeholder="Email address" />
+              </li>
+              <li>
+                <textarea placeholder="Message"></textarea>
+              </li>
+              <li>
+                <input type="button" value="Send message" />
+              </li>
+            </ul>
+          </form>
+        </div>
+      </section>
+      <!-- map section -->
+      <section class="section map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d559.6730037717988!2d126.93104690087868!3d37.484595159717166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sko!2skr!4v1610343290542!5m2!1sko!2skr"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <!-- footer -->
+      <footer class="footer">
+        <address>INDIGO</address>
+      </footer>
+    </section>
+
+    <!-- indigo js -->
+
+    <script src="./assets/js/tgl_menu.js"></script>
+    <script src="./assets/js/main_slider.js"></script>
+    <!-- inner js -->
+  </body>
+</html>
